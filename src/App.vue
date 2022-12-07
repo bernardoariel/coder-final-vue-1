@@ -1,17 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <login-component></login-component>
+   <register-component></register-component>
+   <productos-component></productos-component>
+   <producto-component></producto-component>
+   <lista-productos-cards></lista-productos-cards>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import LoginComponent from './components/LoginComponent.vue'
+import RegisterComponent from './components/RegisterComponent.vue';
+import ProductosComponent from './components/ProductosComponent.vue'
+import ProductoComponent from './components/ProductoComponent.vue';
+import ListaProductosCards from './components/ListaProductosCards.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LoginComponent,
+    RegisterComponent,
+    ProductosComponent,
+    ProductoComponent,
+    ListaProductosCards
+    
   }
 }
 </script>

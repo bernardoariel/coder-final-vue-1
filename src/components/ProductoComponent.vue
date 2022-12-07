@@ -28,7 +28,7 @@
                 <div class="mt-3 mb-2">
 
                     <a href="#" class="btn btn-dark float-start">Comprar</a>
-                    <a href="#" class="btn btn-secondary float-end">Regresar</a>
+                    <a href="#" class="btn btn-secondary float-end">+ info</a>
 
                 </div>
                
